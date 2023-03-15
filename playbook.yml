@@ -6,4 +6,4 @@
       shell: docker pull octopops24/calc
 
     - name: running container
-      shell: docker run -it -d octopops24/calc
+      shell: docker run -it -d octopops24/calc /bin/bash/
