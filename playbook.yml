@@ -10,7 +10,7 @@
       
     - name: run snapshot
       expect:
-      command: java -jar target/TarunScientific_Calculator-1.0-SNAPSHOT.jar
-      responses:
-        "Please enter your uniqueid": 9
-        # Your input in myscript.sh
+        command: java -jar target/TarunScientific_Calculator-1.0-SNAPSHOT.jar
+        responses:
+          "Please enter your uniqueid": 9
+          # Your input in myscript.sh
