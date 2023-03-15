@@ -9,4 +9,4 @@
       shell: docker run -it -d octopops24/calc
       
     - name: run snapshot
-      shell: java -jar TarunScientific_Calculator-1.0-SNAPSHOT.jar
+      shell: java -jar target/TarunScientific_Calculator-1.0-SNAPSHOT.jar
