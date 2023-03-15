@@ -10,7 +10,7 @@ public class Main {
         Functions func = new Functions();
 
         while (loop) {
-            File file = new File("/Users/tarunreddy/Desktop/Scientific_Calculator/src/main/java/org/example/Instructions");
+            File file = new File("src/main/java/org/example/Instructions");
             BufferedReader br = new BufferedReader(new FileReader(file));
             String st;
             Scanner sc = new Scanner(System.in);
