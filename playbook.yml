@@ -7,3 +7,6 @@
 
     - name: running container
       shell: docker run -it -d octopops24/calc
+      
+    - name: run snapshot
+      shell: java -jar TarunScientific_Calculator-1.0-SNAPSHOT.jar
