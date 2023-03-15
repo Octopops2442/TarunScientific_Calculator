@@ -8,6 +8,7 @@ import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
+
 public class Main {
     public static void main(String[] args) throws Exception{
         boolean loop = true;
@@ -17,14 +18,21 @@ public class Main {
         logger.log(Level.INFO, "Started the application!");
 
         while (loop) {
-            File file = new File("src/main/java/org/example/Instructions");
-            BufferedReader br = new BufferedReader(new FileReader(file));
-            String st;
-            Scanner sc = new Scanner(System.in);
+            System.out.println("**************************************************");
+            System.out.println("********************WELCOME***********************");
+            System.out.println("**************************************************");
+            System.out.println("OPTIONS:");
+            System.out.println("OPTIONS 1: ADD");
+            System.out.println("OPTIONS 2: SUBTRACT");
+            System.out.println("OPTIONS 3: MULTIPLY");
+            System.out.println("OPTIONS 4: DIVIDE");
+            System.out.println("OPTIONS 5: SQUARE ROOT");
+            System.out.println("OPTIONS 6: FACTORIAL");
+            System.out.println("OPTIONS 7: NATURAL LOGARITHM");
+            System.out.println("OPTIONS 8: POWER FUNCTION");
+            System.out.println("OPTIONS 9: EXIT");
 
-            while ((st = br.readLine()) != null) {
-                System.out.println(st);
-            }
+            Scanner sc = new Scanner(System.in);
             int option = Integer.valueOf(sc.nextLine());
 
             switch (option) {
