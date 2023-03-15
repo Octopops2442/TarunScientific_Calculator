@@ -7,6 +7,3 @@
 
     - name: running container
       shell: docker run -it -d octopops24/calc
-    
-    - name: running the snapshot
-      shell: java -version
