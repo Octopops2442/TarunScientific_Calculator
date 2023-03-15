@@ -35,11 +35,11 @@ pipeline {
                 sh "docker rmi octopops24/calc"
             }
         }
-        stage('Ansible pull image') {
-            steps {
-                ansiblePlaybook becomeUser: null, colorized: true, disableHostKeyChecking: true, installation: 'Ansible', inventory: 'inventory', playbook: 'playbook.yml', sudoUser: null
-            }
-        }
+//         stage('Ansible pull image') {
+//             steps {
+//                 ansiblePlaybook becomeUser: null, colorized: true, disableHostKeyChecking: true, installation: 'Ansible', inventory: 'inventory', playbook: 'playbook.yml', sudoUser: null
+//             }
+//         }
 
     }
 }
