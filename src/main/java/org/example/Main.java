@@ -4,10 +4,17 @@ import java.io.*;
 import java.util.Scanner;
 import java.io.File;
 
+import org.apache.logging.log4j.Level;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+
 public class Main {
     public static void main(String[] args) throws Exception{
         boolean loop = true;
         Functions func = new Functions();
+        Logger logger = LogManager.getLogger(Main.class);
+
+        logger.log(Level.INFO, "Started the application!");
 
         while (loop) {
             File file = new File("src/main/java/org/example/Instructions");
@@ -98,6 +105,7 @@ public class Main {
 //                    System.out.println(func.Power(a8, b8));
 //                    break;
                 case 9:
+                    logger.log(Level.INFO, "Stopping the application!");
                     loop=false;
             }
         }
