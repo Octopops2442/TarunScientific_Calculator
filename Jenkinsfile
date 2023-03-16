@@ -2,11 +2,11 @@ pipeline {
     agent any
 
     stages {
-        stage('Github Pull') {
-            steps {
-                git branch: 'main', credentialsId: 'GitHub', url: 'https://github.com/Octopops2442/TarunScientific_Calculator.git'
-            }
-        }
+//         stage('Github Pull') {
+//             steps {
+//                 git branch: 'main', credentialsId: 'GitHub', url: 'https://github.com/Octopops2442/TarunScientific_Calculator.git'
+//             }
+//         }
         stage('Maven build') {
             steps {
                 script{
