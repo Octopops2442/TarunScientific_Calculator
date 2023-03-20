@@ -19,7 +19,7 @@ pipeline {
         stage('Docker image push to dockerhub') {
             steps {
                 script{
-                    docker.withRegistry('','DockerHub'){
+                    docker.withRegistry('','Tarun Docker Hub'){
                     imageName.push()
                     }
                 }
