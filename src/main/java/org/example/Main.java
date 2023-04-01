@@ -87,13 +87,13 @@ public class Main {
 
                     System.out.println(func.SquareRoot(a5));
                     break;
-//                case 6:
-//                    System.out.println("Input: ");
-//
-//                    int a6 = Integer.valueOf(sc.nextLine());
-//
-//                    System.out.println(func.Factorial(a6));
-//                    break;
+                case 6:
+                    System.out.println("Input: ");
+
+                    int a6 = Integer.valueOf(sc.nextLine());
+
+                    System.out.println(func.Factorial(a6));
+                    break;
 //                case 7:
 //                    System.out.println("Input: ");
 //
