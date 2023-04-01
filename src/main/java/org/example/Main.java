@@ -101,17 +101,17 @@ public class Main {
 //
 //                    System.out.println(func.Logarithm(a7));
 //                    break;
-//                case 8:
-//                    System.out.println("First input: ");
-//
-//                    double a8 = Double.valueOf(sc.nextLine());
-//
-//                    System.out.println("Second input: ");
-//
-//                    double b8 = Double.valueOf(sc.nextLine());
-//
-//                    System.out.println(func.Power(a8, b8));
-//                    break;
+                case 8:
+                    System.out.println("First input: ");
+
+                    double a8 = Double.valueOf(sc.nextLine());
+
+                    System.out.println("Second input: ");
+
+                    double b8 = Double.valueOf(sc.nextLine());
+
+                    System.out.println(func.Power(a8, b8));
+                    break;
                 case 9:
                     logger.log(Level.INFO, "Stopping the application!");
                     loop=false;
