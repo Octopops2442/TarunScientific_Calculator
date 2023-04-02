@@ -94,13 +94,13 @@ public class Main {
 
                     System.out.println(func.Factorial(a6));
                     break;
-//                case 7:
-//                    System.out.println("Input: ");
-//
-//                    double a7 = Double.valueOf(sc.nextLine());
-//
-//                    System.out.println(func.Logarithm(a7));
-//                    break;
+                case 7:
+                    System.out.println("Input: ");
+
+                    double a7 = Double.valueOf(sc.nextLine());
+
+                    System.out.println(func.Logarithm(a7));
+                    break;
                 case 8:
                     System.out.println("First input: ");
 
